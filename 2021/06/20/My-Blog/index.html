@@ -7,12 +7,12 @@
    
   <title>My Blog | Karry-Liao&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="git常用命令 git add README.md           &#x2F;&#x2F;文件添加到仓库 git add .           &#x2F;&#x2F;不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 git commit -m “first commit”           &#x2F;&#x2F;把文件提交到仓库 git remote add origin &amp;#103;&amp;#x6">
+  <meta name="description" content="git常用命令 git add README.md           &#x2F;&#x2F;文件添加到仓库 git add .           &#x2F;&#x2F;不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 git commit -m “first commit”           &#x2F;&#x2F;把文件提交到仓库 git remote add origin &amp;#x67;&amp;#x6">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My Blog">
 <meta property="og:url" content="http://example.com/2021/06/20/My-Blog/index.html">
 <meta property="og:site_name" content="Karry-Liao&#39;s Blog">
-<meta property="og:description" content="git常用命令 git add README.md           &#x2F;&#x2F;文件添加到仓库 git add .           &#x2F;&#x2F;不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 git commit -m “first commit”           &#x2F;&#x2F;把文件提交到仓库 git remote add origin &amp;#103;&amp;#x6">
+<meta property="og:description" content="git常用命令 git add README.md           &#x2F;&#x2F;文件添加到仓库 git add .           &#x2F;&#x2F;不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 git commit -m “first commit”           &#x2F;&#x2F;把文件提交到仓库 git remote add origin &amp;#x67;&amp;#x6">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-06-20T04:05:06.000Z">
 <meta property="article:modified_time" content="2021-06-20T13:46:04.029Z">
@@ -65,7 +65,9 @@
     </div>
   </div>
 </header>
-
+<div style="position:fixed; top: 0; left: 50%;  float: right; z-index: 999;">
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=150 height=52 src="//music.163.com/outchain/player?type=2&id=25638810&auto=1&height=32"></iframe>
+</div>
       <div class="outer">
         <section id="main"><article id="post-My-Blog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -89,14 +91,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h2><p> git add README.md           //文件添加到仓库<br> git add .           //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了<br> git commit -m “first commit”           //把文件提交到仓库<br> git remote add origin <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;</a>:wangjiax9/practice.git            //关联远程仓库<br> git push -u origin master          //把本地库的所有内容推送到远程库上</p>
+        <h2 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h2><p> git add README.md           //文件添加到仓库<br> git add .           //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了<br> git commit -m “first commit”           //把文件提交到仓库<br> git remote add origin <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#104;&#x75;&#98;&#46;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#104;&#x75;&#98;&#46;&#x63;&#111;&#109;</a>:wangjiax9/practice.git            //关联远程仓库<br> git push -u origin master          //把本地库的所有内容推送到远程库上</p>
 <hr>
 <h2 id="解决提交代码到Githun中error-failed-to-push-some-refs-to-地址-错误"><a href="#解决提交代码到Githun中error-failed-to-push-some-refs-to-地址-错误" class="headerlink" title="解决提交代码到Githun中error: failed to push some refs to + 地址 错误"></a>解决提交代码到Githun中error: failed to push some refs to + 地址 错误</h2><p> 出现错误的原因是github中的README.md文件不在本地代码目录中。<br> 也就是说我们需要先将远程代码库中的任何文件先pull到本地代码库中，才能push新的代码到github代码库中。<br> 使用如下命令：git pull –rebase origin master<br> 然后再进行上传: git push -u origin master5</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/06/20/My-Blog/" data-id="ckq5a3xdq0000jonyepng65wo" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/06/20/My-Blog/" data-id="ckq5b9ako0000okny3uci74ab" class="article-share-link">Share</a>
       
       
     </footer>
